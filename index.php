@@ -38,7 +38,7 @@ $allPossible = array("", "Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Char
 
 $wishList = array("Articuno", "Zapdos", "Moltres", "Mewtwo", "Mew", "Quilava", "Typhlosion", "Feraligatr", "Pichu", "Cleffa", "Igglybuff", "Togepi", "Bellossom", "Politoed", "Jumpluff", "Unown", "Forretress", "Steelix", "Granbull", "Scizor", "Delibird", "Houndoom", "Kingdra", "Donphan", "Porygon2", "Smeargle", "Tyrogue", "Hitmontop", "Smoochum", "Elekid", "Magby", "Miltank", "Blissey", "Raikou", "Entei", "Suicune", "Larvitar", "Tyranitar", "Lugia", "Ho-Oh", "Celebi"); //this are the only pokemons that you are interested in getting
 
-$rawFile = file_get_contents("http://www.pokesniper.org/newapiman.txt");
+$rawFile = file_get_contents("http://www.pokesniper.org/newapiman777.txt");
 $removePrefix = substr($rawFile, 1,-3);	
 $poke = explode('{',$removePrefix);
 $badCount = count($poke);
